@@ -1,4 +1,4 @@
-package Test_this;
+﻿package Test_this;
 
 import Test_this.Test_this.MainPage;
 import Test_this.Test_this.RegistrattionPage;
@@ -29,7 +29,7 @@ public class HotlineTest extends TestBase {
         registrationPage.email(")(*@#$)(@gmalele.com");
         registrationPage.submit();
         registrationPage.assertElementPresent();
-    }
+ //hello new brach просто тест изминений в гите   }
 
    @After
    public void postcondition() throws IOException {
